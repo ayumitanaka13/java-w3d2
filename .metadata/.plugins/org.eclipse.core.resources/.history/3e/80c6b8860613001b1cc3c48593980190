@@ -1,0 +1,19 @@
+
+public class Book {
+//	public String bookTitle; --> Unknown
+//	public String firstName; --> John
+//	public String lastName;	--> Doe
+//	public int publishedYear; --> 1900 
+	
+	public Book(String title, String fName, String lName, int year) {
+		bookTitle = title;
+		firstName = fName;
+		lastName = lName;
+		publishedYear = year;	
+	}
+	
+	private String bookTitle;
+	private String firstName;
+	private String lastName;	
+	private int publishedYear;
+}

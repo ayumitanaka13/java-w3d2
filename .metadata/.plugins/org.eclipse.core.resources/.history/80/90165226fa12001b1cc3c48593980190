@@ -1,0 +1,16 @@
+
+public class Student {
+	private String firstName;
+	private String lastName;	
+	private double score;
+	
+	// constructor should be public method and the same name as class name
+	// Default
+//	public Student() {
+//		
+//	}
+	
+	public double getScore() {
+		return 0.0;
+	}
+}

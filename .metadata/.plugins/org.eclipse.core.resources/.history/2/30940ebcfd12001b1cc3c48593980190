@@ -1,0 +1,14 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Student student1 = new Student("John", "Doe", 18.5);
+		Student student2 = new Student("Jane", "Dew", 19.0);
+		
+		// String is object
+		String studentName = null;
+		System.out.println(student1.firstName + " " + student1.lastName); // John Doe
+		System.out.println(student2.firstName + " " + student2.lastName); // Jane Dew
+	}
+
+}

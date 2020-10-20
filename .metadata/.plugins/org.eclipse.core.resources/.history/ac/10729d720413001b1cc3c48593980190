@@ -1,0 +1,15 @@
+
+public class Book {
+	public String bookTitle;
+	public String firstName;
+	public String lastName;	
+	public int publishedYear;
+	
+	public Book(String title, String fName, String lName, int year) {
+		bookTitle = title;
+		firstName = fName;
+		lastName = lName;
+		publishedYear = year;	
+	}
+	
+}

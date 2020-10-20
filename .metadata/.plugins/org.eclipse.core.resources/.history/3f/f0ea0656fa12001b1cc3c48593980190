@@ -1,0 +1,19 @@
+
+public class Student {
+	private String firstName;
+	private String lastName;	
+	private double score;
+	
+	// Default Constructor
+	// Constructor should be public method and the same name as class name
+	public Student(String fName, String lName, double studentScore) {
+		firstName = fName;
+		lastName = lName;
+		score = studentScore;
+		
+	}
+	
+	public double getScore() {
+		return 0.0;
+	}
+}
